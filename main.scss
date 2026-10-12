@@ -1,0 +1,5 @@
+// File SCSS chính: sử dụng hệ thống module @use của Dart Sass.
+@use "base/global";
+@use "layout/container";
+@use "components/buttons";
+@use "components/cards";

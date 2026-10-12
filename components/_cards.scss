@@ -1,0 +1,19 @@
+@use "../abstracts/variables" as vars;
+@use "../abstracts/mixins" as mixins;
+
+.card {
+  border: 1px solid vars.$border-color;
+  padding: 20px;
+  @include mixins.box-shadow;
+  background: white;
+  margin: 20px 0;
+
+  // Nesting các phần tử con của card.
+  h2 {
+    margin: 0 0 10px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+}

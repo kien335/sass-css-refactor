@@ -1,0 +1,14 @@
+@use "variables" as vars;
+
+// Mixin tái sử dụng kiểu nút.
+@mixin button-style($bg-color) {
+  background: $bg-color;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+// Mixin tái sử dụng đổ bóng.
+@mixin box-shadow {
+  box-shadow: vars.$box-shadow;
+}
